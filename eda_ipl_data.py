@@ -5,7 +5,7 @@ import xgboost as xgb
 import streamlit as st
 
 
-pickle_a = open("C:\\Users\\Ravikiran\\Downloads\\eda_ipl_data.h5", "rb")
+pickle_a = open("eda_ipl_data.h5", "rb")
 regressor = pickle.load(pickle_a)  # our model
 
 
